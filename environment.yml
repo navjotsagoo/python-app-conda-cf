@@ -1,0 +1,15 @@
+name: app
+channels:
+  - conda-forge # pyshp numpy
+  - anaconda # shapely psycopg2 pil
+  - defaults
+dependencies:
+  - python=2.7.13
+  - numpy=1.13.1
+  - scipy=0.19.1
+  - shapely=1.5.16
+  - pyshp=1.2.11
+  - psycopg2=2.7.1
+  - pil=1.1.7
+  - pip:
+      - flask
