@@ -16,7 +16,7 @@ Extracting the droplet shows four directories in the droplet-directory. These ar
 app   deps   logs  tmp
 ```
 
-Add your python application files into the `app` directory.
+Remove the dummy `app.py` in the `app` folder; add your python application file(s) to the `app` directory.
 
 Repackage the entire contents of the droplet-directory in its original `.tgz` format
 ```bash
