@@ -1,7 +1,7 @@
 name: app
 channels:
   - conda-forge # pyshp numpy
-  - anaconda # shapely psycopg2 pil
+  - anaconda # shapely psycopg2 pil scipy
   - defaults
 dependencies:
   - python=2.7.13
